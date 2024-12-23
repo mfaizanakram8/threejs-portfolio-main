@@ -61,7 +61,7 @@ export const clientReviews = [
 export const myProjects = [
   {
     title: 'UMS - Univeristy Management System',
-    desc: 'UMS ek advanced SaaS platform hai jo universities aur educational institutions ke operations streamline karta hai. Yeh admissions, attendance, academic records, faculty schedules, fees management, aur reporting jaise processes automate karne ke liye designed hai, taake efficiency aur productivity barhayi ja sake.',
+    desc: 'UMS is an advanced SaaS platform designed to streamline the operations of universities and educational institutions. It automates processes such as admissions, attendance, academic records, faculty schedules, fee management, and reporting, aiming to enhance efficiency and productivity.',
     subdesc:
       'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion, Node.js(express.js),MonogoDB and Convex, .',
     href: '#',
