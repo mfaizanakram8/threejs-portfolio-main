@@ -270,6 +270,15 @@ export const workExperiences = [
     animation: 'victory',
   },
   {
+    id: 4,
+    name: 'Xpertspot',
+    pos: 'Senior React js Developer',
+    duration: '2024 - Present',
+    title: "as a lead web developer, providing high-quality web solutions to clients worldwide. From responsive designs to full-stack applications, I ensure every project is delivered with excellence and meets the client’s needs effectively.",
+    icon: '/assets/x.png',
+    animation: 'salute',
+  },
+  {
     id: 2,
     name: 'Figma',
     pos: 'Web Developer',
@@ -287,4 +296,5 @@ export const workExperiences = [
     icon: '/assets/12.png',
     animation: 'salute',
   },
+
 ];

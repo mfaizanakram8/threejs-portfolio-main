@@ -7,7 +7,7 @@ const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(' maliraza.346346@gmail.com');
+    navigator.clipboard.writeText(' mfaizanakram536@gmail.com');
     setHasCopied(true);
 
     setTimeout(() => {
@@ -23,7 +23,7 @@ const About = () => {
             <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Muhammad Ali Raza</p>
+              <p className="grid-headtext">Hi, I’m Muhammad Faizan Akram</p>
               <p className="grid-subtext">
                 With 2 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
                 and responsive websites.
@@ -96,7 +96,7 @@ const About = () => {
               <p className="grid-subtext text-center">Contact me</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">maliraza.346346@gmail.com</p>
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">mfaizanakram536@gmail.com</p>
               </div>
             </div>
           </div>
