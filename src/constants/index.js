@@ -29,7 +29,7 @@ export const clientReviews = [
     position: 'CEO of Freelancer Hub',
     img: 'assets/review1.png',
     review:
-      'Working with Muhammad Ali Raza was a game-changer for our business. His work on our e-commerce website was exceptional. He delivered everything on time, and his attention to detail truly brought our vision to life. Highly recommend him for any web development project.',
+      'Working with Muhammad Faizan Akram was a game-changer for our business. His work on our e-commerce website was exceptional. He delivered everything on time, and his attention to detail truly brought our vision to life. Highly recommend him for any web development project.',
   },
   
   {
@@ -38,7 +38,7 @@ export const clientReviews = [
     position: 'Mechnical Design Engneer at Multan ELectronics',
     img: 'assets/review1.png',
     review:
-      'Muhammad Ali Raza is a brilliant developer. His ability to turn complex requirements into functional and visually appealing websites is remarkable. He is highly skilled, professional, and a joy to work with.Working with Muhammad Ali Raza was a Brillant Experience',
+      'Muhammad Faizan akram is a brilliant developer. His ability to turn complex requirements into functional and visually appealing websites is remarkable. He is highly skilled, professional, and a joy to work with.Working with Muhammad Faizan Akram was a Brillant Experience',
   },
   {
     id: 3,
@@ -46,7 +46,7 @@ export const clientReviews = [
     position: 'Owner of HM Online',
     img: 'assets/review1.png',
     review:
-      'It was an absolute pleasure to work with Ali. He understood the nuances of our e-commerce project and delivered a platform that not only works flawlessly but also enhances the customer experience. His skills in both front-end and back-end development are excellent.',
+      'It was an absolute pleasure to work with Faizan. He understood the nuances of our e-commerce project and delivered a platform that not only works flawlessly but also enhances the customer experience. His skills in both front-end and back-end development are excellent.',
   },
   {
     id: 4,
@@ -54,7 +54,7 @@ export const clientReviews = [
     position: 'Lead Developer at Mantech',
     img: 'assets/review1.png',
     review:
-      'I had the opportunity to work with Ali on an internal project for our University Management System (UMS), and his work was top-notch. He tackled every challenge with ease and helped build a highly functional system that streamlined many of our campus processes.',
+      'I had the opportunity to work with Faizan on an internal project for our University Management System (UMS), and his work was top-notch. He tackled every challenge with ease and helped build a highly functional system that streamlined many of our campus processes.',
   },
 ];
 
