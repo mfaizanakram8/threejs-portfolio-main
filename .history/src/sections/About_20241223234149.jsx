@@ -25,7 +25,8 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Muhammad Faizan Akram</p>
               <p className="grid-subtext">
-              With 6 years of full-stack experience, I build dynamic, responsive, and scalable web apps that deliver real-world impact and exceptional user experiences.
+                With 2 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
+                and responsive websites.
               </p>
             </div>
           </div>
