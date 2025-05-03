@@ -25,45 +25,60 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Ahmed Malik',
-    position: 'CEO of Freelancer Hub',
+    name: 'Sarah Lee',
+    position: 'Entrepreneur (Upwork Client - USA)',
     img: 'assets/review1.png',
     review:
-      'Working with Muhammad Faizan Akram was a game-changer for our business. His work on our e-commerce website was exceptional. He delivered everything on time, and his attention to detail truly brought our vision to life. Highly recommend him for any web development project.',
+      'I hired Faizan through Upwork for a custom iOS app for my fitness startup. He exceeded all expectations with a sleek UI, smooth performance, and great communication throughout. The app was delivered on time and worked flawlessly. Will definitely hire again!',
   },
-  
   {
     id: 2,
-    name: 'Muhammad Noman',
-    position: 'Mechnical Design Engneer at Multan ELectronics',
+    name: 'Ali Nawaz',
+    position: 'Tech Consultant (Fiverr Client - UAE)',
     img: 'assets/review1.png',
     review:
-      'Muhammad Faizan akram is a brilliant developer. His ability to turn complex requirements into functional and visually appealing websites is remarkable. He is highly skilled, professional, and a joy to work with.Working with Muhammad Faizan Akram was a Brillant Experience',
+      'Muhammad Faizan Akram developed a complete MERN stack e-commerce platform for one of my clients. His code was clean, the UX was smooth, and his approach was highly professional. Found him on Fiverr and he has become my go-to developer for all future projects.',
   },
   {
     id: 3,
-    name: 'Haider Ali',
-    position: 'Owner of HM Online',
+    name: 'Jessica Brown',
+    position: 'Product Manager (Freelancer Client - UK)',
     img: 'assets/review1.png',
     review:
-      'It was an absolute pleasure to work with Faizan. He understood the nuances of our e-commerce project and delivered a platform that not only works flawlessly but also enhances the customer experience. His skills in both front-end and back-end development are excellent.',
+      'I contacted Faizan through Freelancer for an Android app for internal business use. He delivered a robust, secure app with all required features. His understanding of Firebase integration and push notifications saved us a lot of time. Amazing experience!',
   },
   {
     id: 4,
-    name: 'Jhanzaib Tayyab',
-    position: 'Lead Developer at Mantech',
+    name: 'Osama Tariq',
+    position: 'Startup Founder (LinkedIn Client - Pakistan)',
     img: 'assets/review1.png',
     review:
-      'I had the opportunity to work with Faizan on an internal project for our University Management System (UMS), and his work was top-notch. He tackled every challenge with ease and helped build a highly functional system that streamlined many of our campus processes.',
+      'Found Faizan through LinkedIn and trusted him to develop a MEAN stack based admin panel for our CRM. He delivered beyond expectations – the system is fast, scalable, and user-friendly. Great experience working with Nayi Manzil Software House.',
+  },
+  {
+    id: 5,
+    name: 'Anna Becker',
+    position: 'Marketing Head (Fiverr Client - Germany)',
+    img: 'assets/review1.png',
+    review:
+      'Faizan helped us redesign and optimize our existing React/Node.js platform. The improvements in performance and UI were instantly noticeable. He’s highly skilled and delivers with professionalism. Very happy with the outcome!',
+  },
+  {
+    id: 6,
+    name: 'Bilal Qureshi',
+    position: 'App Publisher (Upwork Client - Canada)',
+    img: 'assets/review1.png',
+    review:
+      'Faizan built a cross-platform iOS/Android mobile app for my news platform using React Native. His communication was clear and progress was shared regularly. The app got approved on both stores without issues. Highly recommended for any mobile development project!',
   },
 ];
 
 export const myProjects = [
   {
-    title: 'UMS - Univeristy Management System',
-    desc: 'UMS is an advanced SaaS platform designed to streamline the operations of universities and educational institutions. It automates processes such as admissions, attendance, academic records, faculty schedules, fee management, and reporting, aiming to enhance efficiency and productivity.',
+    title: 'Podcastr - AI Podcast Platform',
+    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
     subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion, Node.js(express.js),MonogoDB and Convex, .',
+      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
     href: '#',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
@@ -195,7 +210,7 @@ export const myProjects = [
       {
         id: 2,
         name: 'TailwindCSS',
-        path: '/assets/tailwindcss.png',
+        path: 'assets/tailwindcss.png',
       },
       {
         id: 3,
@@ -210,10 +225,10 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Bitex: E-commerce Platform with Admin Panel',
-    desc: 'Bitex is an advanced e-commerce website that provides users with a seamless shopping experience while offering businesses efficient management of products, orders, and customers through a fully integrated admin panel.',
+    title: 'Imaginify - AI Photo Manipulation App',
+    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
     subdesc:
-      'Bitex is built using modern technologies like Next.js, TypeScript, ESLint, Node.js, and MongoDB, ensuring the platform is fast, scalable, and secure.',
+      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
     href: '#',
     texture: '/textures/project/project5.mp4',
     logo: '/assets/project-logo5.png',
@@ -232,7 +247,7 @@ export const myProjects = [
       {
         id: 2,
         name: 'TailwindCSS',
-        path: '/assets/tailwindcss.png',
+        path: 'assets/tailwindcss.png',
       },
       {
         id: 3,
@@ -246,6 +261,71 @@ export const myProjects = [
       },
     ],
   },
+  {
+    title: 'Trackify – Personal Expense Tracker',
+    desc: 'Trackify is a cross-platform mobile app that helps users manage daily expenses, set budgets, and visualize spending trends through interactive charts and insights.',
+    subdesc:
+      'Built using React Native, Expo, Firebase, and Recharts, Trackify ensures smooth performance on both iOS and Android devices with real-time sync and offline capabilities.',
+    href: '#',
+    texture: '/textures/project/project5.mp4',
+    logo: '/assets/project-logo8.png',
+    logoStyle: {
+      backgroundColor: '#1E1B4B',
+      border: '0.2px solid #3730A3',
+      boxShadow: '0px 0px 60px 0px #6366F14D',
+    },
+    spotlight: '//assets/spotlight4.png',
+    tags: [
+      { id: 1, name: 'React Native', path: '/assets/react.svg' },
+      { id: 2, name: 'Firebase', path: '/assets/firebase.png' },
+      { id: 3, name: 'Expo', path: '/assets/expo.png' },
+      { id: 4, name: 'Recharts', path: '/assets/project-logo10.png' },
+    ],
+  },
+  {
+    title: 'HealthMate – AI Fitness & Diet Companion',
+    desc: 'HealthMate is an AI-powered mobile app that guides users with custom workout routines, meal plans, and health tracking with a simple and friendly interface.',
+    subdesc:
+      'Created using Flutter, OpenAI API, and Supabase, HealthMate supports both platforms and delivers AI-driven suggestions, workout logs, and motivational tracking.',
+    href: '#',
+    texture: '/textures/project/project2.mp4',
+    logo: '/assets/project-logo9.png',
+    logoStyle: {
+      backgroundColor: '#032e2f',
+      border: '0.2px solid #13625c',
+      boxShadow: '0px 0px 60px 0px #14b8a64D',
+    },
+    spotlight: '/assets/spotlight3.png',
+    tags: [
+      { id: 1, name: 'Flutter', path: '/assets/flutter.png' },
+      { id: 2, name: 'OpenAI API', path: '/assets/openai.png' },
+      { id: 3, name: 'Supabase', path: '/assets/supabase.png' },
+      { id: 4, name: 'Dart', path: '/assets/dart.png' },
+    ],
+  },
+  {
+    title: 'SwiftLearn – iOS Flashcards Learning App',
+    desc: 'SwiftLearn is a native iOS app designed to help students learn faster using AI-generated flashcards. It supports spaced repetition and custom quiz generation for effective memorization.',
+    subdesc:
+      'Built entirely using SwiftUI, Core Data, and Apple’s Natural Language framework, SwiftLearn offers a smooth, native experience with offline capabilities and beautiful animations.',
+    href: '#',
+    texture: '/textures/project/project1.mp4',
+    logo: '/assets/project-logo10.png',
+    logoStyle: {
+      backgroundColor: '#1B1C29',
+      border: '0.2px solid #2C2D3C',
+      boxShadow: '0px 0px 60px 0px #6366F14D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      { id: 1, name: 'Swift', path: '/assets/swift.png' },
+      { id: 2, name: 'SwiftUI', path: '/assets/swiftui.png' },
+      { id: 3, name: 'Core Data', path: '/assets/coredata.png' },
+      { id: 4, name: 'Apple NLP', path: '/assets/nlp.png' },
+    ],
+  },
+  
+  
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
@@ -262,39 +342,31 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Freelance',
-    pos: 'Lead Web Developer',
-    duration: '2024 - Present',
-    title: "As a lead web developer, providing high-quality web solutions to clients worldwide. From responsive designs to full-stack applications, I ensure every project is delivered with excellence and meets the client’s needs effectively.",
-    icon: '/assets/framer.svg',
+    name: 'Nayi Manzil',
+    pos: 'Co-founder & CEO',
+    duration: '2022 - Present',
+    title: "As the Co-founder and CEO of Nayi Manzil, I drive the company's strategic vision and oversee the development of scalable web applications. I’ve led cross-functional teams, built full-stack products using the MERN stack, and launched community initiatives to empower youth through technology. From architecting modern solutions to mentoring junior developers, my focus is on delivering excellence and creating real-world impact.",
+    icon: '/assets/12.png',
     animation: 'victory',
   },
   {
-    id: 4,
-    name: 'Xpertspot',
-    pos: 'Senior React js Developer',
-    duration: '2024 - Present',
-    title: "I specialize in delivering high-quality React.js solutions to clients worldwide. From crafting interactive user interfaces to building scalable full-stack applications, I focus on leveraging the power of React.js to create seamless and responsive web experiences. My expertise ensures every project meets the client’s unique needs while adhering to industry best practices.",
-    icon: '/assets/x.png',
-    animation: 'salute',
-  },
-  {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2023 - Present',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
-    animation: 'clapping',
+    name: 'CodeMentor Labs',
+    pos: 'Technical Mentor & Workshop Host',
+    duration: '2020 - Present',
+    title: "At CodeMentor Labs, I designed and delivered live coding bootcamps and tech workshops, guiding over 500+ aspiring developers. I focused on React.js, Node.js, and deployment workflows. Through personalized mentorship and real-world project simulations, I helped students and professionals build industry-ready skills and launch their careers with confidence.",
+    icon: '/assets/framer.svg',
+    animation: 'salute',
   },
   {
     id: 3,
-    name: 'Nayi Manzil',
-    pos: 'Senior Mern Stack Developer',
-    duration: '2023 - Present',
-    title: "Developed a full stack web application using modern technologies such as React, Node.js, and MongoDB Created and facilitated training sessions to help employees develop their knowledge and skills",
-    icon: '/assets/12.png',
-    animation: 'salute',
+    name: 'StartX Innovations',
+    pos: 'Full-Stack Consultant & Startup Partner',
+    duration: '2019 - Present',
+    title: "Collaborated with early-stage startups to build MVPs and production-grade applications using the MERN stack and modern design systems. I helped shape product architecture, improve performance, and implement best coding practices. My role also included advising on UI/UX, DevOps, and scaling strategies, ensuring the startups moved from idea to execution smoothly and successfully.",
+    icon: '/assets/figma.svg',
+    animation: 'clapping',
   },
+
 
 ];
